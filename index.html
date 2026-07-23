@@ -460,16 +460,13 @@ button{font:inherit;border:0;background:none;cursor:pointer;-webkit-tap-highligh
     <button class="terug" data-prev>terug</button>
   </section>
 
-  <!-- stap 7: aftellen + cadeau -->
-  <section class="stapblok" data-titel="Het aftellen">
+  <!-- stap 7: cadeau met countdown -->
+  <section class="stapblok" data-titel="Je cadeau">
     <div class="kop">
-      <span class="eb">nog even geduld</span>
-      <h2>Tot ik terug ben</h2>
-      <p class="lead">Deze klok loopt echt. Elke seconde die verdwijnt, is er eentje dichter bij jou.</p>
+      <span class="eb">je bent er</span>
+      <h2>Je cadeau</h2>
+      <p class="lead">Dit was waar alles naartoe liep. Maak maar open.</p>
     </div>
-    <div class="klok" id="klok"></div>
-    <p class="klokzin" id="klokzin"></p>
-    <h2 class="disp" style="margin-top:3.2rem;font-size:clamp(1.5rem,5.4vw,2.2rem)">En dit was nog niet alles…</h2>
     <div class="box-scene">
       <div class="giftbox" id="giftbox" role="button" tabindex="0" aria-label="Open het cadeau">
         <div class="gb-body"></div><div class="lid"></div>
@@ -479,6 +476,9 @@ button{font:inherit;border:0;background:none;cursor:pointer;-webkit-tap-highligh
       <div class="verras">
         <div class="verras-in">
           <p class="hand" id="cv"></p>
+          <p style="margin-top:1.4rem;color:var(--grey)">Maar je moet er nog h&eacute;&eacute;l even op wachten. Deze klok loopt echt, tot ik voor je deur sta:</p>
+          <div class="klok" id="klok"></div>
+          <p class="klokzin" id="klokzin"></p>
           <div class="naam">Gelukkige verjaardag, <span id="naam2"></span></div>
           <div class="bbi">zie je graag, bbi</div>
         </div>
